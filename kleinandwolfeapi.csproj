@@ -6,7 +6,7 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
-<Choose>
+<!-- <Choose>
   <When Condition=" '$(BuildEnvironment)' == 'Development' ">
       <ItemGroup>
       </ItemGroup>
@@ -16,7 +16,7 @@
           <PackageReference Include="MySqlConnector" Version="0.60.3" />
       </ItemGroup>
   </When>
-  </Choose>
+  </Choose> -->
 
 
   <ItemGroup>

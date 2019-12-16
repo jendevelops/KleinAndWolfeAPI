@@ -15,7 +15,6 @@ namespace kleinandwolfeapi.Models
 
     public double TimeToPurchase {get;set;}
 
-    
     public Customer Customer {get;set;}
 
     public ICollection<Client> Clients { get; set; }

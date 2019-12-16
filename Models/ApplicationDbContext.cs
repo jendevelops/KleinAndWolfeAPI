@@ -8,6 +8,7 @@ namespace kleinandwolfeapi.Models
     public ApplicationDbContext(DbContextOptions options) : base(options) { }
     public DbSet<Partner> Partners { get; set; }
     public DbSet<Client> Clients { get; set; }
+    public DbSet<Traffic> SiteTraffic {get;set;}
     public DbSet<Order> Orders { get; set; }
 
     public DbSet<Product> Products { get; set; }

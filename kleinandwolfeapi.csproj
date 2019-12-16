@@ -20,6 +20,8 @@
 
 
   <ItemGroup>
+    <PackageReference Include="Faker.Net" Version="1.1.1" />
+    <PackageReference Include="NBuilder" Version="6.1.0-beta-173" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />

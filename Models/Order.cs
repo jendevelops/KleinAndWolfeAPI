@@ -17,14 +17,13 @@ namespace kleinandwolfeapi.Models
 
     public Customer Customer {get;set;}
 
-    public ICollection<Client> Clients { get; set; }
+    public int ClientId { get; set; }
     public ICollection<PromotionOrder> Promotions { get; set; }
     public ICollection<OrderProduct> Products {get;set;} 
 
 
     public Order()
     {
-      Clients = new HashSet<Client>();
       Promotions = new HashSet<PromotionOrder>();
       Products = new HashSet<OrderProduct>();
     }
